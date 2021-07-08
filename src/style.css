@@ -282,12 +282,22 @@ font-size: 18px;
 }
 .btn-back {
   width: 40%;
-  height: 35px;
-  margin: 10% 30%;
+  height: 38px;
+  margin: 8% 4%;
   border-radius: 18px;
   color: white;
-  font-size: 18px;
+  font-size: 11px;
   background: linear-gradient(90deg, rgba(36,204,169,1) 0%, rgba(162,219,150,1) 99%, rgba(255,255,255,1) 100%);
+}
+.btn-watchAll{
+  width: 40%;
+  height: 35px;
+  margin: 8% 3%;
+  border-radius: 18px;
+  color: white;
+  font-size: 11px;
+  background: linear-gradient(90deg, rgba(36,204,169,1) 0%, rgba(162,219,150,1) 99%, rgba(255,255,255,1) 100%);
+
 }
 .dropDown {
   width: 200px;

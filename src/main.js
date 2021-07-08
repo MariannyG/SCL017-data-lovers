@@ -102,11 +102,18 @@ const pokeStats = (poke) => {
             <p class="poke-card-size"> Height: ${poke.size.height} Weigth:${poke.size.weight}<p>
           </div>
         </div>
-        <button type="button" class="btn-back" id="btn-back">Vuelve a atrás</button>`;
+        <button type="button" class="btn-back" id="btn-back">Ir a la página de incio</button>
+        <button type="button" class="btn-watchAll" id="btn-watchAll">Ir a todos los Pokemon</button>`;
 
   document.querySelector(".btn-back").addEventListener("click", () => {
     document.getElementById("firstPage").style.display = "block";
     document.getElementById("pokeStatsContainer").style.display = "none";
+  });
+
+  document.querySelector(".btn-watchAll").addEventListener("click", () => {
+    document.getElementById("firstPage").style.display = "none";
+    document.getElementById("pokeStatsContainer").style.display = "none";
+    document.getElementById("showAllPokemon").style.display = "block";
   });
 
   if (poke.type.length == 1) {
