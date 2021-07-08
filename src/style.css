@@ -224,6 +224,7 @@ footer {
   overflow-x: visible;
   border-radius: 5px;
   font-family: "Inconsolata";
+  overflow: hidden;
 }
 .poke-card-num {
   font-size: 1.2em;

@@ -6,9 +6,10 @@ const inputValue = document.getElementById("searchpokemon");
 const matchingPokesDiv = document.getElementById("matching");
 const buttonClick = document.getElementById("btn");
 
+
 //Pagina tarjeta individual
 
-inputValue.addEventListener("keyup", (event) => {
+inputValue.addEventListener("keyup", () => {
   matchingPokesDiv.innerHTML = "";
   if (inputValue.value.length >= 1) {
     const inputValueLowerCase = inputValue.value.toLowerCase();
@@ -30,7 +31,7 @@ inputValue.addEventListener("keyup", (event) => {
 });
 
   // Pagina con todas las tarjetas
-  buttonClick.addEventListener("click", (event) => {
+  buttonClick.addEventListener("click", () => {
   document.getElementById("firstPage").style.display = "none";
   document.getElementById("showAllPokemon").style.display = "block";
 
@@ -80,12 +81,13 @@ inputValue.addEventListener("keyup", (event) => {
 }
 });
 
+
 const pokeStats = (poke) => {
   document.getElementById("firstPage").style.display = "none";
   document.getElementById("showAllPokemon").style.display = "none";
   document.getElementById("pokeStatsContainer").style.display = "block";
 
-  pokeStatsContainer.innerHTML = `<div class="pokemonCard">
+  document.getElementById("pokeStatsContainer").innerHTML = `<div class="pokemonCard">
           <p class="poke-card-num">#${poke.num}</p> 
           <h2>${poke.name}</h2>
           <img class="poke-card-img" src="${poke.img}">
@@ -101,7 +103,7 @@ const pokeStats = (poke) => {
         </div>
         <button type="button" class="btn-back" id="btn-back">Vuelve a atrás</button>`;
 
-  document.querySelector(".btn-back").addEventListener("click", (event) => {
+  document.querySelector(".btn-back").addEventListener("click", () => {
     document.getElementById("firstPage").style.display = "block";
     document.getElementById("pokeStatsContainer").style.display = "none";
   });

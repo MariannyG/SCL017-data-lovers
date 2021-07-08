@@ -74,20 +74,22 @@
     margin: 0;
   }
   .pokemonCard{
-    margin: 2% 5%;
+    margin: 1% 15%;
+    width: 70%;
     
   }
   .poke-card-num{
     font-size: 1.3em;
     padding: 2px;
-    height: 30px;
+    height: 27px;
   }
   .pokemonCard h2{
     font-size: 1.8rem;
-    margin: 1px;
+    margin: 1%;
+    padding: 0;
   }
  .poke-card-img {
-   width: 10%;
+   width: 9%;
    padding: 0;
  }
   .card-square-info{
@@ -101,6 +103,7 @@
   .pokemon-card-about{
     font-size: 1.3em;
     padding: 1%;
+    margin: 0;
   }
   .p-resistant{
     font-size: 1.3em; 
@@ -114,6 +117,7 @@
     text-align: center;
     font-size: 1.3em;
     margin: 0;
+    padding: 0;
     }
   .dropDown {
     margin: 15px 0px 10px 100px;
