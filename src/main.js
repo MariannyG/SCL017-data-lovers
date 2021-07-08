@@ -1,6 +1,7 @@
 import pokemon from "./data/pokemon/pokemon.js";
 import {sortAZ, sortZA, sortDesNum, sortAscNum, filterfunction} from "./data.js"; 
 
+
 const dataPokemon = pokemon.pokemon;
 const inputValue = document.getElementById("searchpokemon");
 const matchingPokesDiv = document.getElementById("matching");
