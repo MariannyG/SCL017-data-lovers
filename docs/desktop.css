@@ -1,0 +1,136 @@
+  #firstPage {
+    background-image: url(img/lab-desktop.jpg);
+    
+  }
+  header{
+    min-width: 1200px;
+  }
+  header img{
+    width: 250px;
+    height: 90px;
+    margin: 3%;   
+  }
+  .nav-menu ul li{
+    margin: 90px 65px 0px 130px;
+    align-self: flex-end;
+  }
+  .nav-menu ul li a{
+    font-size: 25px;
+  }
+  main {
+    width: 50%;
+   margin-left: 43%;
+  }
+  main section h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  main section p {
+    font-size: 20px;
+    margin: 10px;
+  }
+  #searchpokemon {
+    width: 550px;
+    height: 40px;
+    margin: 30px 0px 30px 0px;
+  }
+  .btn {
+    margin: 10px 0px 10px 0px;
+    font-size: 100%;
+  }
+  footer {
+    min-width: 1200px;
+   }
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social h3 {
+    margin-bottom: 10px;
+  }
+  .row img {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+  } 
+  .row label {
+    margin: -10px 0px 0px 5px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .download h3 {
+    margin-bottom: 10px;
+  }
+  .row2 img {
+    width: 90px;
+    height: 30px;
+  }
+  #matching {
+    width: 550px;
+    margin-right: 25px;
+    transform: translateY(-38px);
+  }
+  #pokeStatsContainer{
+    margin: 0;
+  }
+  .pokemonCard{
+    margin: 1% 15%;
+    width: 70%;
+    
+  }
+  .poke-card-num{
+    font-size: 1.3em;
+    padding: 2px;
+    height: 27px;
+  }
+  .pokemonCard h2{
+    font-size: 1.8rem;
+    margin: 1%;
+    padding: 0;
+  }
+ .poke-card-img {
+   width: 9%;
+   padding: 0;
+ }
+  .card-square-info{
+    margin: 1%;
+    padding: 1%;
+  }
+  .imgType{
+    width: 60px;
+    height: 70px;
+  }
+  .pokemon-card-about{
+    font-size: 1.3em;
+    padding: 1%;
+    margin: 0;
+  }
+  .p-resistant{
+    font-size: 1.3em; 
+    margin: 0;
+  }
+  .imgResistant {
+    width: 60px;
+    height: 70px;
+  }
+  .poke-card-size{
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    }
+  .dropDown {
+    margin: 15px 0px 10px 100px;
+  }
+  .btn-back{
+    width: 18%;
+    height: 50px;
+    margin: 1% 5% 0 30%;
+    font-size: 23px;
+  }
+  .btn-watchAll{
+    width: 18%;
+    height: 50px;
+    margin: 1% 0;
+    font-size: 23px;
+  }

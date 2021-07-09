@@ -1,0 +1,113 @@
+  #firstPage{
+    background-image: url(img/lab-tablet.png);
+  }
+  header{
+    flex-direction: row;
+    min-width: 768px;
+  }
+  header img{
+    width: 180px;
+    height: 70px;  
+  }
+  .nav-menu ul li{
+    display: inline-block;
+    margin: 65px 35px 0px 70px; 
+  }
+  .nav-menu ul li a{
+    font-size: 25px;
+  }
+  .square{
+    padding: 60px;
+  }
+  main section h3{
+    font-size: 25px;
+  }
+  main section p {
+    font-size: 25px;
+  }
+  #searchpokemon {
+    width: 90%;
+    height: 45px;
+    margin: 5%;
+  }
+  ::placeholder{
+    font-size: 18px;
+  }
+  .btn {
+    width: 35%;
+    height: 40px;
+    margin: 5%;
+    font-size: 15px;
+  }
+  footer {
+    min-width: 768px;
+  }
+  .container{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #matching {
+    min-height: 150px;
+    height: 150px;
+    width: 443px;
+    transform: translateY(-30px);
+  }
+  .goImg {
+    width: 100px;
+    height: 50px;
+    margin-top: 10%;
+  }
+  .social h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .row img {
+    width: 18px;
+    height: 18px;
+  }
+  .row label {
+    margin: -10px 0px 0px 5px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .download h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .pokemonCard{
+    margin-top: 5%;
+    box-shadow: 10px 10px 8px #0E1426;
+  }
+  .card-pokeboll-img{
+  height: 5px;
+  width:20px;
+  }
+  .poke-card-num{
+  padding: 1px;
+  font-size: 2.5em;
+  height: 65px;
+  padding: 10px;
+  }
+  .pokemonCard h2 {
+    font-size: 2.5em;
+  }
+  .pokemon-card-about {
+    font-size: 26px;
+    line-height: 2em;
+  }
+  .poke-card-size {
+    font-size: 22px;
+  }
+  .poke-card-img {
+    width: 40%;
+    padding: 2%;
+  }
+  .btn-back {
+    width: 30%;
+    height: 44px;
+    font-size: 22px;
+    margin: 10% 35%;
+  }
+  .dropDown {
+    margin: 15px 0px 10px 60px;
+  }
